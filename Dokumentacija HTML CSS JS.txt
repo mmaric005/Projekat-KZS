@@ -1,0 +1,18 @@
+Kreirana je responzivna, jednostrana web aplikacija putem HTML,CSS i JS. Tema aplikacije je kozmetičke usluge kao i kratak blog sa savetima o lepoti.
+Web aplikacija sadrži 4 sekcije: O nama, Usluge i cenovnik, Info i Beauty saveti i Kontakt.
+Kreiran je i favicon, mala slika koja služi za vizuelnu identifikaciju brenda i nalazi se na levoj strani URL adrese.
+Meni sa 4 sekcije se nalazi u gornjem desnom uglu na početku stranice.
+U sekciji O nama je opis kozmetičkog salona BELISSIMA kao i kontakt i adresa salona.
+U sekciji Usluge i cenovnik je dat opis usluge i cena i korišćene su u CSS-u grid kolone.
+Putem media query u CSS-u modifikovaće nam se prikaz dela stranice kada je npr njena širina manja od 768px.
+U sekciji Info i Beauty saveti koji predstavlja deo mini bloga postoji mogućnost pročitati detaljnije savete ukoliko 
+se klikne na "Pročitaj više" gde vodi na eksterni link iz online časopisa.
+U sekciji Kontakt moguće je kontaktirati kozmetički salon tj postaviti neko pitanje ili dati sugestiju. Napravljena je forma i tu se upisuju podaci:
+ime prezime, imejl i poruka. U dokumentu main.js je ugrađen local storage, tj trajnija memorija u kojem se čuvaju svi ti podaci kada korisnik pritisne "Pošalji".
+Putem addEventListener se generiše kod kad se klikne "Pošalji".
+
+Poslednji deo, odnosno Footer prikazuje društvene mreže kozmetičkog salona gde korisnik može da pogleda više o salonu
+ili da podeli sa svojim prijateljima ukoliko je bio zadovoljan uslugom.
+Takođe, u svakom trenutku prelistavanja sajta postoji dugme "Vrati se na početak" ukoliko korisnik želi da se vrati na meni 
+ili nešto drugo. Uvedeno je kako bi korisnik brže našao na sajtu šta ga zanima.
+
